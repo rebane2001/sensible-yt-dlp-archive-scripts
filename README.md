@@ -19,7 +19,7 @@ For more information about installation, please read the [official README](https
 
 In PowerShell (run as administrator):
 
-```
+```pwsh
 # Install Chocolatey for package management
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
@@ -36,7 +36,7 @@ python -m pip install -U yt-dlp
 
 ### Mac OS
 
-```
+```bash
 # install Homebrew for package management
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -51,7 +51,7 @@ python3 -m pip install -U yt-dlp
 
 ### Linux (debian)
 
-```
+```bash
 sudo apt-get install -y python3 ffmpeg aria2
 python3 -m pip install -U yt-dlp
 # If module pip is not found, run this first: 
