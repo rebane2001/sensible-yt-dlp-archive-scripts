@@ -8,6 +8,6 @@
 yt-dlp --config-locations "./yt-dlp.conf" \
        --download-archive "playlists_downloaded.txt" \
        --batch-file="playlists_input.txt" \
-       --output "playlists/%(playlist_id)s - %(playlist_title)s.200s/%(upload_date)s - %(title).200s - %(id)s.%(ext)s"
+       --output "playlists/%(playlist_id)s - %(playlist_title).200B/%(upload_date)s - %(title).200B - %(id)s.%(ext)s"
 # sleep 300
 # done
