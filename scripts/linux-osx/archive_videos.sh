@@ -9,6 +9,6 @@
 yt-dlp --config-locations "./yt-dlp.conf" \
        --download-archive "videos_downloaded.txt" \
        --batch-file="videos_input.txt" \
-       --output "videos/%(uploader).200B (%(uploader_id)s)/%(upload_date)s - %(title).200B - %(id)s.%(ext)s"
+       --output "videos/%(uploader).200B (%(channel_id)s)/%(upload_date)s - %(title).200B - %(id)s.%(ext)s"
 # sleep 300
 # done

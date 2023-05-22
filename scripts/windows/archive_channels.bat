@@ -8,5 +8,5 @@
 yt-dlp --config-locations ".\yt-dlp.conf" ^
        --download-archive "channels_downloaded.txt" ^
        --batch-file="channels_input.txt" ^
-       --output "channels/%%(uploader).200B (%%(uploader_id)s)/%%(upload_date)s - %%(title).200B - %%(id)s.%%(ext)s"
+       --output "channels/%%(uploader).200B (%%(channel_id)s)/%%(upload_date)s - %%(title).200B - %%(id)s.%%(ext)s"
 :: goto loop
